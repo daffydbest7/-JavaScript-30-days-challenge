@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html{
+        background: url('./background_click.jpg') center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footer{
+        color:black;
+    }
+    .type{
+        color:white;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .link{
+      color: white;
+      text-align: center;
+      font-size: large;
+      padding-top: 1rem;
+    
+    }
+  </style>
+</head>
+<body>
+    <div class="header"> MY DRUM KIT, 2023 </div>
+        <div class="type"> Click Event</div>
+
+    <div class="link"> 
+        <a href="index.html"> Check Out the Keydown Event</a>
+    </div>
+    <div class="keys">
+        <div class="key clap">
+          <kbd >A</kbd> 
+          <span class="sound">clap</span>
+        </div>
+        <div  class="key hithat">
+          <kbd>S</kbd>
+          <span class="sound">hihat</span>
+        </div>
+        <div  class="key kick">
+          <kbd>D</kbd>
+          <span class="sound">kick</span>
+        </div>
+        <div  class="key openhat">
+          <kbd>F</kbd>
+          <span class="sound">openhat</span>
+        </div>
+        <div  class="key boom">
+          <kbd>G</kbd>
+          <span class="sound">boom</span>
+        </div>
+        <div  class="key ride">
+          <kbd>H</kbd>
+          <span class="sound">ride</span>
+        </div>
+        <div  class="key snare">
+          <kbd>J</kbd>
+          <span class="sound">snare</span>
+        </div>
+        <div class="key tom">
+          <kbd>K</kbd>
+          <span class="sound">tom</span>
+        </div>
+        <div class="key tink">
+          <kbd>L</kbd>
+          <span class="sound">tink</span>
+        </div>
+      </div>
+    
+      <audio class="clap" src="sounds/clap.wav"></audio>
+      <audio class="hithat" src="sounds/hihat.wav"></audio>
+      <audio class="kick" src="sounds/kick.wav"></audio>
+      <audio class="openhat" src="sounds/openhat.wav"></audio>
+      <audio class="boom" src="sounds/boom.wav"></audio>
+      <audio class="ride" src="sounds/ride.wav"></audio>
+      <audio class="snare" src="sounds/snare.wav"></audio>
+      <audio class="tom" src="sounds/tom.wav"></audio>
+      <audio class="tink" src="sounds/tink.wav"></audio>
+
+  <div class="footer">Copyright: Daffydbest7 &copy 2023 </div>
+<script type="text/javascript" src="click.js"></script>
+</body>
+</html>
